@@ -1,5 +1,6 @@
 package com.nonobett.oresrevamped;
 
+import com.nonobett.oresrevamped.block.ModBlocks;
 import com.nonobett.oresrevamped.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class OresRevamped implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
