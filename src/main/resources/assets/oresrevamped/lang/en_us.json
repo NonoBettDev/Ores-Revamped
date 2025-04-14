@@ -1,6 +1,8 @@
 {
   "item.oresrevamped.ruby": "Ruby",
   "item.oresrevamped.raw_ruby": "Raw Ruby",
-  "block.oresrevamped.ruby_block": "Block of Ruby"
-
+  "block.oresrevamped.ruby_block": "Block of Ruby",
+  "block.oresrevamped.raw_ruby_block": "Block of Raw Ruby",
+  "block.oresrevamped.ruby_ore": "Ruby Ore",
+  "block.oresrevamped.deepslate_ruby_ore": "Deepslate Ruby Ore"
 }
