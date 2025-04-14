@@ -10,7 +10,6 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    private static
 
     private static  void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(OresRevamped.MOD_ID, name),
