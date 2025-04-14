@@ -1,0 +1,6 @@
+{
+  "parent": "minecarft:item/generated",
+  "textures": {
+    "layer0": "oresrevamped:item/ruby"
+  }
+}
