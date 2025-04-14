@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "oresrevamped",
+	"version": "${version}",
+	"name": "Ores Revamped",
+	"description": "This is a Ores mod by NonoBett to revamp all the ores to be cooler",
+	"authors": [
+		"NonoBett"
+	],
+	"contact": {
+		"homepage": "https://github.com/NonoBettDev",
+		"sources": "https://github.com/NonoBettDev/Ores-Revamped"
+	},
+	"license": "MIT",
+	"icon": "assets/oresrevamped/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nonobett.oresrevamped.OresRevamped"
+		],
+		"fabric-datagen": [
+			"com.nonobett.oresrevamped.OresRevampedDataGenerator"
+		],
+		"client":[
+			"com.nonobett.oresrevamped.OresRevampedClient"
+		]
+	},
+	"mixins": [
+		"oresrevamped.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
