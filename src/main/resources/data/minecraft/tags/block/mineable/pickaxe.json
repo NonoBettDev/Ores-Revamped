@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oresrevamped:ruby_block",
+    "oresrevamped:raw_ruby_block",
+    "oresrevamped:ruby_ore",
+    "oresrevamped:deepslate_ruby_ore"
+  ]
+}

@@ -18,16 +18,17 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).requiresTool().strength(50.0F).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).requiresTool().strength(10.0F).sounds(BlockSoundGroup.METAL)));
 
      public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
-             new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).requiresTool().strength(45.0F).instrument(NoteBlockInstrument.BASS)));
+             new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).requiresTool().strength(5.0F).instrument(NoteBlockInstrument.BASS)));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(3.0F).instrument(NoteBlockInstrument.BASEDRUM)));
 
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).requiresTool().strength(4.5F).sounds(BlockSoundGroup.DEEPSLATE)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7),
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).requiresTool().strength(4.5F).sounds(BlockSoundGroup.DEEPSLATE)));
 
 
     private static Block registerBlock(String name, Block block) {
