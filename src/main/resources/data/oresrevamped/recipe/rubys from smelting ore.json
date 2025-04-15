@@ -1,0 +1,14 @@
+
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "oresrevamped:ruby_ore"
+  },
+  "result": {
+    "id": "oresrevamped:ruby"
+  }
+}

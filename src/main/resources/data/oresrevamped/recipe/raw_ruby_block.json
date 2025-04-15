@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "oresrevamped:raw_ruby_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "oresrevamped:raw_ ruby"
+  }
+}
